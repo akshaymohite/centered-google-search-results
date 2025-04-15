@@ -1,0 +1,26 @@
+/* CHROME */
+
+/* Center the main content */
+#rcnt {
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+/* Center the header section */
+#searchform, #appbar, .sfbg {
+  max-width: 800px;
+  margin: 0 auto !important;
+  position: relative !important;
+  justify-content: center;
+}
+
+.dodTBe {
+  display: none !important;
+}
+
+/* Center the whole body content container */
+#main {
+  display: flex;
+  justify-content: center;
+}
+

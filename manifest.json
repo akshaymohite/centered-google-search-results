@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Center Google Search Results",
+  "version": "1.0",
+  "description": "Center-aligns Google search results for large screens.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "css": ["center.css"]
+    }
+  ],
+  "permissions": []
+}
